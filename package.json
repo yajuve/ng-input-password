@@ -1,0 +1,26 @@
+{
+  "name": "ng-input-password",
+  "version": "1.0.0",
+  "description": "Input password with right button hide/show value of password",
+  "main": "index.js",
+  "scripts": {
+  "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "./input-password.d.ts",
+  "keywords": [
+    "input",
+    "password",
+    "button",
+    "hide",
+    "show"
+  ],
+  "author": "kmr",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.21"
+  }
+}
