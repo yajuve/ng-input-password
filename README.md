@@ -2,6 +2,11 @@
 # ng-input-password
 Component for ionic 2 to use input type password with button show/hide a value of password
 
+1            |  2          |  3
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/yajuve/ng-input-password/raw/master/screenshot/1.png)  |  ![](https://github.com/yajuve/ng-input-password/raw/master/screenshot/2.png) |  ![](https://github.com/yajuve/ng-input-password/raw/master/screenshot/3.png)
+
+
 * [Supported platforms](#supported-platforms)
 * [Instalation](#instalation)
 * [Attributes](#attributes)
