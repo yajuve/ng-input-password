@@ -1,6 +1,6 @@
 {
   "name": "ng-input-password",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Input password with right button hide/show value of password",
   "main": "index.js",
   "scripts": {
