@@ -31,7 +31,7 @@ npm install --save ng-input-password
 Import your library **ng-input-password** in your src/app/app.module.ts
 ```javascript
 ...
-import { InputPasswordComponent } from 'ng-input-password/ng-input-password';
+import { InputPasswordComponent } from 'ng-input-password/input-password';
 ...
 ```
 in the same file add the component **InputPasswordComponent** in @NgModule
@@ -49,12 +49,13 @@ in the same file add the component **InputPasswordComponent** in @NgModule
 Use **ng-input-password** tag it in your code
 ```javascript
 ...
-<ng-input-password [(ngModel)]="value" ></ng-input-password>
+<ng-input-password></ng-input-password>
 ...
 ```
 # Attributes 
 Attribute  | Description | Type | Default values
 ------------- | ------------- | -------------- | --------------
+[(ngModel)]  | Bind data      | Variable       | /
 placeholder  | Text to show inside input  | Text | Password
 icon  | The icon of button hide/show password | Text | eye
 color  | the color of icon (if password is **visible**) | Text | primary
@@ -73,3 +74,6 @@ NB : you can find icon list in ionic2 doc
     hideColor = "secondary" >
 </ng-input-password>
 ...
+
+```
+NB : **value** is a variable in .ts file
