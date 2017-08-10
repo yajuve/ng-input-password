@@ -1,6 +1,6 @@
 
 # ng-input-password
-Component for ionic 2 to use input type password with button show/hide a value of password
+Component for ionic 2 show/hide a value of password field
 
 1            |  2          |  3
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -21,45 +21,48 @@ Component for ionic 2 to use input type password with button show/hide a value o
 
 # Instalation
 
-Open terminal in the root of your project and type
+Open terminal in the root of your ionic 2 project 
 ```shell
 npm install --save ng-input-password
 ```
 
 # How to use
 
-Import your library **ng-input-password** in your src/app/app.module.ts
+1- Import your library **NgInputPasswordComponent** in your src/app/app.module.ts
 ```javascript
 ...
-import { InputPasswordComponent } from 'ng-input-password/input-password';
+import { NgInputPasswordComponent } from 'ng-input-password/ng-input-password';
 ...
 ```
-in the same file add the component **InputPasswordComponent** in @NgModule
+2- in the same file add the component **NgInputPasswordComponent** in @NgModule
 ```javascript
 ...
 @NgModule({
   declarations: [
-    InputPasswordComponent,
+    NgInputPasswordComponent,
     ...
   ]
 ...
 ```
 
 
-Use **ng-input-password** tag it in your code
+3- Simply use **ng-input-password** tag it in your code
 ```javascript
 ...
 <ng-input-password></ng-input-password>
 ...
 ```
 # Attributes 
-Attribute  | Description | Type | Default values
+You can personalise your component using these options:
+Attribute  | Description | Type | Default
 ------------- | ------------- | -------------- | --------------
-[(ngModel)]  | Bind data      | Variable       | /
-placeholder  | Text to show inside input  | Text | Password
-icon  | The icon of button hide/show password | Text | eye
-color  | the color of icon (if password is **visible**) | Text | primary
-hideColor  | the color of icon (if password is **hidden**) | Text | dark
+[(ngModel)]  | Bind data value of the password input.     | any       | /
+placeholder  | The HTML placeholder attribute.  | string | Password
+icon  | The icon of button show/hide password. | string | eye
+color  | the color of icon (if password is **visible**). | string | primary
+hideColor  | the color of icon (if password is **hidden**). | string | dark
+label  | The text of label. | string | not actived
+label  | Style of lable (floation / fixed). | string | /
 
 NB : you can find icon list in ionic2 doc
 
@@ -71,9 +74,11 @@ NB : you can find icon list in ionic2 doc
     placeholder = "password" 
     icon = "eye"
     color = "danger"
-    hideColor = "secondary" >
+    hideColor = "secondary"
+    label = "Password"
+    labelStyle = "fixed" >
 </ng-input-password>
 ...
 
 ```
-NB : **value** is a variable in .ts file
+NB : **value** is a variable in .ts file.

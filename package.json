@@ -1,7 +1,7 @@
 {
   "name": "ng-input-password",
-  "version": "1.0.1",
-  "description": "Input password with right button hide/show value of password",
+  "version": "2.0.0",
+  "description": "Component for ionic 2 show/hide a value of password field",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,6 @@
     "typescript": "^2.4.2"
   },
   "dependencies": {
-    "@angular/core": "^4.3.3"
+    
   }
 }
