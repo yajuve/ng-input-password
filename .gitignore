@@ -25,6 +25,9 @@ dist/
 node_modules/
 $RECYCLE.BIN/
 
+*.map
+*.js
+
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
