@@ -46,7 +46,7 @@ import { NgInputPasswordComponent } from 'ng-input-password/ng-input-password';
 ```
 
 
-3- Simply use **ng-input-password** tag it in your code
+3- Simply use **ng-input-password** tag in your code
 ```javascript
 ...
 <ng-input-password></ng-input-password>
