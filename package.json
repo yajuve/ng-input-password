@@ -8,6 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "typings": "./ng-input-password.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yajuve/ng-input-password.git"
+  },
   "keywords": [
     "ionic2",
     "input",

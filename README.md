@@ -57,15 +57,15 @@ import { NgInputPasswordComponent } from 'ng-input-password/ng-input-password';
 
 Attribute     | Description                                     | Type   | Default
 ------------- | ----------------------------------------------- | ------ | -------------
-[(ngModel)]   | Bind data value of the password input.          | any    | /
+[(ngModel)]   | Bind data, value of the password input.          | any    | /
 placeholder   | The HTML placeholder attribute.                 | string | Password
 icon          | The icon of button show/hide password.          | string | eye
 color         | the color of icon (if password is **visible**). | string | primary
 hideColor     | the color of icon (if password is **hidden**).  | string | dark
 label         | The text of label.                              | string | not actived
-labelStyle    | Style of lable (floation / fixed).              | string | /
+labelStyle    | Style of lable (floating / fixed).              | string | /
 
-NB : you can find icon list in ionic2 doc
+NB: you can find icon list in ionic2 doc
 
 # Example
 ```javascript
@@ -82,4 +82,4 @@ NB : you can find icon list in ionic2 doc
 ...
 
 ```
-NB : **value** is a variable in .ts file.
+NB: It is not necessary to use all attributes, (**value** is a variable in .ts file).
