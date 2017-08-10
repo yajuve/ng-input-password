@@ -28,13 +28,13 @@ npm install --save ng-input-password
 
 # How to use
 
-1- Import your library **NgInputPasswordComponent** in your src/app/app.module.ts
+1- Import the library **NgInputPasswordComponent** in your src/app/app.module.ts
 ```javascript
 ...
 import { NgInputPasswordComponent } from 'ng-input-password/ng-input-password';
 ...
 ```
-2- in the same file add the component **NgInputPasswordComponent** in @NgModule
+2- In the same file (src/app/app.module.ts) add **NgInputPasswordComponent** in @NgModule
 ```javascript
 ...
 @NgModule({
