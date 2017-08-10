@@ -53,16 +53,17 @@ import { NgInputPasswordComponent } from 'ng-input-password/ng-input-password';
 ...
 ```
 # Attributes 
-You can personalise your component using these options:
-Attribute  | Description | Type | Default
-------------- | ------------- | -------------- | --------------
-[(ngModel)]  | Bind data value of the password input.     | any       | /
-placeholder  | The HTML placeholder attribute.  | string | Password
-icon  | The icon of button show/hide password. | string | eye
-color  | the color of icon (if password is **visible**). | string | primary
-hideColor  | the color of icon (if password is **hidden**). | string | dark
-label  | The text of label. | string | not actived
-label  | Style of lable (floation / fixed). | string | /
+
+
+Attribute     | Description                                     | Type   | Default
+------------- | ----------------------------------------------- | ------ | -------------
+[(ngModel)]   | Bind data value of the password input.          | any    | /
+placeholder   | The HTML placeholder attribute.                 | string | Password
+icon          | The icon of button show/hide password.          | string | eye
+color         | the color of icon (if password is **visible**). | string | primary
+hideColor     | the color of icon (if password is **hidden**).  | string | dark
+label         | The text of label.                              | string | not actived
+labelStyle    | Style of lable (floation / fixed).              | string | /
 
 NB : you can find icon list in ionic2 doc
 
