@@ -4,9 +4,10 @@
   "description": "Component for ionic 2 show/hide a value of password field",
   "main": "index.js",
   "scripts": {
+    "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "typings": "./input-password.d.ts",
+  "typings": "./ng-input-password.d.ts",
   "keywords": [
     "ionic2",
     "input",
@@ -20,7 +21,5 @@
   "devDependencies": {
     "typescript": "^2.4.2"
   },
-  "dependencies": {
-    
-  }
+  "dependencies": {}
 }

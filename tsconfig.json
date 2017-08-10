@@ -9,7 +9,7 @@
         "declaration": true
     },
     "files": [
-        "input-password.ts"
+        "ng-input-password.ts"
     ],
     "exclude": [
         "node_modules"

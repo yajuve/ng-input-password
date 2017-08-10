@@ -6,6 +6,9 @@
 *.log
 *.tmp
 *.tmp.*
+*.map
+*.js
+*.d.js
 log.txt
 *.sublime-project
 *.sublime-workspace
@@ -25,8 +28,7 @@ dist/
 node_modules/
 $RECYCLE.BIN/
 
-*.map
-*.js
+
 
 .DS_Store
 Thumbs.db
