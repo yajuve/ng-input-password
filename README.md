@@ -28,6 +28,7 @@ npm install --save ng-input-password
 
 # How to use
 
+### I) Normal use
 1- Import the library **NgInputPasswordComponent** in your src/app/app.module.ts
 ```javascript
 ...
@@ -44,9 +45,28 @@ import { NgInputPasswordComponent } from 'ng-input-password/ng-input-password';
   ]
 ...
 ```
+### II) Lazy loading
+1- Go in your yourpage.module.ts and add import 
+```javascript
+...
+import { NgInputPasswordComponent } from 'ng-input-password/ng-input-password';
+...
+```
+
+2- Then add NgInputPasswordComponent in declarations
+```javascript
+@NgModule({
+  declarations: [
+    ...
+    NgInputPasswordComponent
+  ],
+  imports: [
+    ...
+  ],
+```
 
 
-3- Simply use **ng-input-password** tag in your code
+III)- Simply use **ng-input-password** tag in your code
 ```javascript
 ...
 <ng-input-password></ng-input-password>
